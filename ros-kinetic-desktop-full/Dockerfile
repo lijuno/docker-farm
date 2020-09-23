@@ -9,6 +9,6 @@ RUN apt-get update && apt-get install -y --no-install-recommends \
     python-pip python-tk \
     python-wstool python-rosdep ninja-build \
     python3-pip \
-    ros-kinetic-desktop-full \
+    ros-kinetic-desktop-full ros-kinetic-joint-state-publisher-gui \
     && apt-get clean && rm -rf /var/lib/apt/lists/*
 
