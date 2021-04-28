@@ -16,5 +16,5 @@ RUN apt-get update && apt-get install -y --no-install-recommends \
     build-essential \
     ros-melodic-desktop-full \
     python-catkin-tools \
-    vim git jq wget curl \
+    vim git jq wget curl less \
     && apt-get clean && rm -rf /var/lib/apt/lists/*
