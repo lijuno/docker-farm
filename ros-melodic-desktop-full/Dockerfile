@@ -1,5 +1,6 @@
 FROM ubuntu:18.04
 
+ENV DEBIAN_FRONTEND=nonintercative
 ENV TZ=America/Los_Angeles
 RUN ln -snf /usr/share/zoneinfo/$TZ /etc/localtime && echo $TZ > /etc/timezone
 
