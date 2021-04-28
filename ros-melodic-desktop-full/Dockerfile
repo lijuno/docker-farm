@@ -14,4 +14,7 @@ RUN sh -c 'echo "deb http://packages.ros.org/ros/ubuntu bionic main" > /etc/apt/
 
 RUN apt-get update && apt-get install -y --no-install-recommends \
     ros-melodic-desktop-full \
+    python-catkin-tools \
+    git \
+    vim \
     && apt-get clean && rm -rf /var/lib/apt/lists/*
